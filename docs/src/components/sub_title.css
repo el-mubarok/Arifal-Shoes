@@ -1,0 +1,17 @@
+.sub_title{
+  position: relative;
+  margin-top: 32px;
+  margin-bottom: 3rem;
+}
+.sub_title:after{
+  content: '';
+  position: absolute;
+  width: 110%;
+  height: 5px;
+  background-color: #e6af2e;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
